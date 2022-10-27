@@ -22,10 +22,14 @@ function del(){
     outputScreen.value = outputScreen.value.slice(0,-1);
 }
 
+function log(){
+    outputScreen.value = Math.log(outputScreen.value);
+}
 
+function pow(){
+    outputScreen.value = Math.pow(outputScreen.value,2);
+}
 
-
-
-
-
-
+function pi(){
+    outputScreen.value = 3.14;
+}
