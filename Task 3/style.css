@@ -1,8 +1,9 @@
 :root {
-	--darkest: #111827;
-	--grey: #6B7280;
-	--blue: #a7c4f4;
-	--light: #EEE;
+	--darkest: #282e3a;
+	--darker: #5d6064;
+	--grey: #afb4be;
+	--blue: #005bef;
+	--light : rgb(226, 218, 218);
 }
 
 * {
@@ -90,16 +91,16 @@ main {
 
 .task-list h2 {
 	font-size: 1.5rem;
-	font-weight: 300;
-	color: var(--grey);
+	fzont-weight: 300;
+	color: var(--darkest);
 	margin-bottom: 1rem;
 }
 
 #tasks .task {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--darkest);
-	padding: 1rem;
+	background-color: var(--darker);
+	padding: 2rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
 }
